@@ -1,5 +1,5 @@
 # simple tinytest examples for c2f()
-library(simpleTestPackage)
+library(sampleTestPackage)
 
 expect_equal(c2f(0), 32)
 expect_equal(c2f(10), 50)

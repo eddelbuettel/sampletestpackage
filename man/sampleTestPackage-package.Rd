@@ -1,20 +1,20 @@
-\name{simpleTestPackage-package}
-\alias{simpleTestPackage-package}
-\alias{simpleTestPackage}
+\name{sampleTestPackage-package}
+\alias{sampleTestPackage-package}
+\alias{sampleTestPackage}
 \docType{package}
-\title{\packageTitle{simpleTestPackage}}
-\description{\packageDescription{simpleTestPackage}}
+\title{\packageTitle{sampleTestPackage}}
+\description{\packageDescription{sampleTestPackage}}
 \details{
-  The DESCRIPTION file: \packageDESCRIPTION{simpleTestPackage}
-  \packageIndices{simpleTestPackage}
+  The DESCRIPTION file: \packageDESCRIPTION{sampleTestPackage}
+  \packageIndices{sampleTestPackage}
 
   This section should provide a more detailed overview of how to use the
   package, including the most important functions.
 }
 \author{
-  \packageAuthor{simpleTestPackage}
+  \packageAuthor{sampleTestPackage}
   
-  Maintainer: \packageMaintainer{simpleTestPackage}
+  Maintainer: \packageMaintainer{sampleTestPackage}
 }
 \references{
   This optional section can contain literature or other references for
