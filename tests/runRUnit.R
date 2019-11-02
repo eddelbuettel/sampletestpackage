@@ -3,7 +3,7 @@ library(RUnit)
 
 ## define test suite
 ts <- defineTestSuite("c2f",
-                      dirs = system.file("tests", package = "simpleTestPackage"),
+                      dirs = system.file("runittests", package = "simpleTestPackage"),
                       testFileRegexp = "^runit.+\\.r",   # default
                       testFuncRegexp = "^test.+")        # also default
 
