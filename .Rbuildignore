@@ -3,4 +3,5 @@
 ^simpleTestPackage\.Rcheck$
 ^simpleTestPackage.*\.tar\.gz$
 ^simpleTestPackage.*\.tgz$
-.travis.yml
+^.travis.yml
+^.github/
