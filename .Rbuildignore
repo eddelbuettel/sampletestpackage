@@ -5,3 +5,4 @@
 ^simpleTestPackage.*\.tgz$
 ^.travis.yml
 ^.github/
+^local/
