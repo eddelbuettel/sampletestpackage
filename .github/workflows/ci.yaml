@@ -1,6 +1,6 @@
 # Modified CI script adapted from GH Default
 
-name: R
+name: r-lib
 
 on:
   push:
