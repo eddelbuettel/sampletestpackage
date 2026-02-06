@@ -20,15 +20,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      #- name: Setup
-      #  uses: eddelbuettel/github-actions/r-ci@master
-
-      - name: Test run.sh
-        run: |
-          wget https://dirk.eddelbuettel.com/tmp/runtmp.sh
-          mv -v runtmp.sh run.sh
-          chmod 0755 run.sh
-          ./run.sh bootstrap
+      - name: Setup
+        uses: eddelbuettel/github-actions/r-ci@master
 
       - name: Dependencies
         run: ./run.sh install_deps
